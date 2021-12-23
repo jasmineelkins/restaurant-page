@@ -1,1 +1,3 @@
-console.log("Test");
+import loadPage from "./website";
+
+loadPage();
