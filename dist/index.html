@@ -7,17 +7,50 @@
     <title>Restaurant Page</title>
 
     <link rel="shortcut icon" href="/icon.svg" />
+    <link
+      rel="stylesheet"
+      href="/src/assets/Fallinlove-Regular.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;1,200&family=Shadows+Into+Light&display=swap");
+    </style>
+    <script
+      src="https://kit.fontawesome.com/131bb444ae.js"
+      crossorigin="anonymous"
+    ></script>
 
     <script defer src="main.js"></script>
   </head>
   <body>
     <header>
-      <nav>
+      <h1 id="restaurantName">THE PARROT</h1>
+      <nav id="navbar">
         <a id="homeBtn" href="#">Home</a>
         <a id="menuBtn" href="#">Menu</a>
         <a id="contactBtn" href="#">Contact</a>
       </nav>
     </header>
-    <main id="contentContainer">empty</main>
+
+    <main>
+      <div id="contentContainer"></div>
+    </main>
+
+    <footer class="footer hidden">
+      <p>
+        Designed & built by Jasmine Elkins &nbsp; | &nbsp; December 2021
+        &nbsp;&nbsp;
+      </p>
+
+      <a href="https://github.com/jasmineelkins/tic-tac-toe">
+        <i
+          class="fab fa-github"
+          style="font-size: 1.5em; color: rgb(255, 242, 199)"
+        ></i>
+      </a>
+    </footer>
   </body>
 </html>
