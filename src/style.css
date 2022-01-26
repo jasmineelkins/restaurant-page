@@ -2,6 +2,14 @@
 html {
   height: 100%;
 }
+
+@font-face {
+  font-family: "Twisted";
+  src: url("./assets/fonts/Strange-GDEG.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -12,14 +20,6 @@ body {
   font-family: "Shadows Into Light", Arial, Helvetica, sans-serif;
   color: rgb(242, 219, 179);
   margin: 0;
-}
-
-@font-face {
-  font-family: "Fall-in-love";
-  src: url("./assets/Fallinlove-Regular.woff") format("woff"),
-    url("./assets/Fallinlove.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
 }
 
 /* HEADER & NAVBAR ----------------------------------- */
@@ -35,8 +35,18 @@ header {
   align-items: center;
 }
 
+#nameDiv {
+  display: flex;
+}
+
 #restaurantName {
-  font-family: "Fall-in-love", sans-serif;
+  font-family: "Twisted", sans-serif;
+  font-size: 80px;
+  padding: 0;
+}
+
+#parrotLogo {
+  height: 100px;
 }
 
 #navbar {
@@ -67,7 +77,7 @@ header {
 main {
   height: 100%;
   width: 100%;
-  background: url("./background.jpg");
+  background: url("./assets/images/background.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
