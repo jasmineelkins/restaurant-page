@@ -6,8 +6,9 @@ const container = document.querySelector("#contentContainer");
 
 // default home page content (Home)
 export default function loadPage() {
-  // const content = createHomeContent();
-  const content = createMenuContent();
+  const content = createHomeContent();
+  // const content = createMenuContent();
+  // const content = createContactContent();
 
   container.appendChild(content);
 }

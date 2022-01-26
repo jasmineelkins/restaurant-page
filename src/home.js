@@ -1,3 +1,4 @@
+// function to create Home info & append to content div
 function createHomeContent() {
   const content = document.createElement("div");
   content.classList.add("content");

@@ -1,5 +1,6 @@
 /* GENERAL --------------------------------- */
-html {
+html,
+body {
   height: 100%;
 }
 
@@ -15,7 +16,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
   /* font-family: "Prompt", sans-serif; */
   font-family: "Shadows Into Light", Arial, Helvetica, sans-serif;
   color: rgb(242, 219, 179);
@@ -24,7 +24,6 @@ body {
 
 /* HEADER & NAVBAR ----------------------------------- */
 header {
-  /* background: linear-gradient(to bottom, rgb(58, 7, 35), rgb(249, 185, 174)); */
   background: rgb(114, 43, 62);
   width: 100%;
   padding: 50px;
@@ -89,6 +88,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .content {
@@ -102,6 +102,8 @@ main {
   padding: 50px;
   margin: 50px;
   color: rgb(255, 242, 199);
+  overflow: auto;
+  height: 525px;
 }
 
 .info {
@@ -124,6 +126,11 @@ main {
 }
 
 /* MENU ----------------------------------- */
+/* #scrollbox {
+  overflow: scroll;
+  height: 
+} */
+
 .tile {
   display: flex;
   flex-direction: column;
@@ -146,6 +153,22 @@ main {
 
 .itemPrice {
   font-size: 20px;
+}
+
+/* CONTACT -------------------------------- */
+#contactContent {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.contactInfo {
+  font-size: 22px;
+}
+
+.locationImg {
+  height: 300px;
+  border: 1px solid #333;
 }
 
 /* FOOTER --------------------------------- */

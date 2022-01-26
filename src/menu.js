@@ -1,9 +1,42 @@
 // create menu array of objects
 // for each object, create a new "tile"
 let menuArray = [
-  { name: "Eggs", description: "Scrambled", price: "5.99" },
-  { name: "Toast", description: "with butter", price: "2.99" },
-  { name: "Coffee", description: "Hot or iced", price: "3.99" },
+  {
+    name: "Fresh veggie omelette",
+    description:
+      "2 eggs with locally-grown seasonal veggies and rich, creamy feta cheese",
+    price: "6.99",
+  },
+  {
+    name: "Toast",
+    description:
+      "Your choice of homemade bread (sourdough white, honey wheat, cinnamon raisin swirl, rosemary focaccia). Toasted & served with butter and jam",
+    price: "2.99",
+  },
+  {
+    name: "Coffee",
+    description:
+      "Served however you like it: Hot or iced. Black or creamy. Decaf or not.",
+    price: "1.99 (12oz) or 3.99 (20z)",
+  },
+  {
+    name: "Tea Latte",
+    description:
+      "Made with your choice of tea: black, chai, habiscus, or matcha. Hot or iced.",
+    price: "1.99 (12oz) or 3.99 (20z)",
+  },
+  {
+    name: "Sandwich of the Day",
+    description:
+      "Smoked turkey breast with fresh herb goat cheese, arugula, sliced avocado, sundried tomatoes, and honey mustard",
+    price: "7.99",
+  },
+  {
+    name: "House Salad",
+    description:
+      "Freshly picked greens tossed with local seasonal vegetables and tangy homemade vinaigrette",
+    price: "5.99",
+  },
 ];
 
 console.log(menuArray);
@@ -52,6 +85,7 @@ function createMenuContent() {
       currentItem.price
     );
 
+    //append new tile to content div
     content.appendChild(newTile);
   });
 
