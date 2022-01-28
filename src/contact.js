@@ -7,6 +7,7 @@ location.src = Location;
 function createContactContent() {
   const content = document.createElement("div");
   content.classList.add("content");
+  content.classList.add("contact");
   content.setAttribute("id", "contactContent");
 
   const innerDiv = document.createElement("div");

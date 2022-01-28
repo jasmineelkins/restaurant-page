@@ -2,6 +2,8 @@
 html,
 body {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
@@ -26,12 +28,13 @@ body {
 header {
   background: rgb(114, 43, 62);
   width: 100%;
-  padding: 50px;
+  padding: 50px 0;
   padding-bottom: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  margin: 0;
 }
 
 #nameDiv {
@@ -56,13 +59,8 @@ header {
   text-decoration: none;
   font-size: 24px;
   transition: 0.5s ease;
-  /* background: rgb(58, 57, 7); */
   padding: 5px 20px;
   color: rgb(242, 219, 179);
-  /* border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border: 1px solid black; */
-  /* margin: 10px; */
 }
 
 #navbar a:hover {
@@ -88,14 +86,9 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
 
 .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 50%;
   background: rgba(147, 89, 85, 0.735);
   border: 1px solid black;
@@ -103,7 +96,15 @@ main {
   margin: 50px;
   color: rgb(255, 242, 199);
   overflow: auto;
-  height: 525px;
+  height: 550px;
+}
+
+.content.home,
+.content.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .info {
@@ -125,18 +126,16 @@ main {
   margin: 0;
 }
 
-/* MENU ----------------------------------- */
-/* #scrollbox {
-  overflow: scroll;
-  height: 
-} */
+/* HOME ----------------------------------- */
+h1
 
+/* MENU ----------------------------------- */
 .tile {
   display: flex;
   flex-direction: column;
   width: 100%;
   padding: 10px 50px;
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
 }
 
 .descriptionDiv {
@@ -178,7 +177,8 @@ main {
   justify-content: center;
   align-items: center;
   position: static;
-  padding: 10px;
+  padding: 10px 0;
+  margin: 0;
   background: rgb(114, 43, 62);
   width: 100%;
 }

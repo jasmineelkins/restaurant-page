@@ -2,6 +2,7 @@
 function createHomeContent() {
   const content = document.createElement("div");
   content.classList.add("content");
+  content.classList.add("home");
 
   const heading = document.createElement("h1");
   heading.classList.add("heading");

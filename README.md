@@ -1,4 +1,4 @@
-Restaurant page, built as an assignment for The Odin Project Full Stack course. Completed in about 9 hours.
+Restaurant page, built as an assignment for The Odin Project Full Stack course. Completed in about 10 hours.
 
 SKILLS:
 
