@@ -11,10 +11,14 @@ function createContactContent() {
   content.setAttribute("id", "contactContent");
 
   const innerDiv = document.createElement("div");
-  content.classList.add("innerDiv");
+  innerDiv.classList.add("innerDiv");
 
   const phoneInfo = document.createElement("div");
   phoneInfo.classList.add("contactInfo");
+
+  // add icons instead of headers
+  // <i class="fa-solid fa-phone"></i>
+  // <i class="fa-solid fa-house"></i>
 
   const phoneHeader = document.createElement("h2");
   phoneHeader.classList.add("header");

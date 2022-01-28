@@ -34,7 +34,6 @@ header {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  margin: 0;
 }
 
 #nameDiv {
@@ -43,7 +42,7 @@ header {
 
 #restaurantName {
   font-family: "Twisted", sans-serif;
-  font-size: 80px;
+  font-size: 60px;
   padding: 0;
 }
 
@@ -57,7 +56,7 @@ header {
 
 #navbar a {
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
   transition: 0.5s ease;
   padding: 5px 20px;
   color: rgb(242, 219, 179);
@@ -92,11 +91,11 @@ main {
   width: 50%;
   background: rgba(147, 89, 85, 0.735);
   border: 1px solid black;
-  padding: 50px;
+  padding: 30px;
   margin: 50px;
   color: rgb(255, 242, 199);
   overflow: auto;
-  height: 550px;
+  height: 450px;
 }
 
 .content.home,
@@ -112,11 +111,11 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .heading {
-  font-size: 40px;
+  font-size: 32px;
   text-decoration: underline;
   text-underline-offset: 10px;
 }
@@ -127,15 +126,12 @@ main {
 }
 
 /* HOME ----------------------------------- */
-h1
 
 /* MENU ----------------------------------- */
 .tile {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 10px 50px;
-  border: 1px solid blue;
 }
 
 .descriptionDiv {
@@ -148,6 +144,7 @@ h1
 
 .itemDescription {
   font-style: italic;
+  font-size: 16px;
 }
 
 .itemPrice {
@@ -155,14 +152,21 @@ h1
 }
 
 /* CONTACT -------------------------------- */
-#contactContent {
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
+.innerDiv {
+  /* display: flex;
+  direction: row; */
+}
+
+.innerDiv h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.innerDiv p {
+  margin: 0;
 }
 
 .contactInfo {
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .locationImg {
