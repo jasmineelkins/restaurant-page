@@ -4,11 +4,11 @@ import createContactContent from "./contact";
 
 const container = document.querySelector("#contentContainer");
 
-// default home page content (Home)
+// choose default home page content
 export default function loadPage() {
-  // const content = createHomeContent();
+  const content = createHomeContent();
   // const content = createMenuContent();
-  const content = createContactContent();
+  // const content = createContactContent();
 
   container.appendChild(content);
 }
