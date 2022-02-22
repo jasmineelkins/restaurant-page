@@ -26,7 +26,7 @@ body {
 
 /* HEADER & NAVBAR ----------------------------------- */
 header {
-  background: rgb(114, 43, 62);
+  background: rgb(176, 37, 74);
   width: 100%;
   padding: 100px 0;
   padding-bottom: 0;
@@ -34,20 +34,24 @@ header {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  border: 1px solid cyan;
 }
 
 #nameDiv {
   display: flex;
+  border: 1px solid green;
 }
 
 #restaurantName {
   font-family: "Twisted", sans-serif;
   font-size: 60px;
   padding: 0;
+  border: 1px solid blue;
 }
 
 #parrotLogo {
   height: 100px;
+  border: 1px solid yellow;
 }
 
 #navbar {
@@ -193,4 +197,13 @@ footer a i {
 
 footer a i:hover {
   transform: rotate(360deg);
+}
+
+/* MEDIA QUERIES ------------------------- */
+@media screen and (max-width: 800px) {
+  #nameDiv {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
